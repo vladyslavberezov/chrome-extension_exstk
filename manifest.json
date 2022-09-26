@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "version": "1.0",
+    "description": "Homework from Existek",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "128": "128.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
